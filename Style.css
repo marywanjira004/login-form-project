@@ -1,0 +1,98 @@
+body {
+    background-color: hsl(303, 76%, 48%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+form {
+    background-color: #f0f0f0;
+    padding: 30px;
+    border-radius: 10px;
+    border: 3px solid #333;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 400px;
+}
+
+form label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="email"],
+form input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    text-align: center;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+form input[type="text"]:focus,
+form input[type="password"]:focus,
+form input[type="email"]:focus,
+form input[type="tel"]:focus {
+    border-color: #10e85c;
+    outline: none;
+    background-color: #fffef0;
+}
+
+form input[type="reset"],
+form input[type="submit"] {
+    background-color: #10e85c;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+form input[type="reset"]:hover,
+form input[type="submit"]:hover {
+    background-color: #0cc849;
+    transition: 0.3s;
+}
+
+.label  {
+    background-color: rgb(200, 171, 6);
+    padding: 15px;
+    border-radius: 6px;
+    width: 250px;
+    text-align: center; 
+}
+.label input[type="text"]
+.label input[type="password"]
+.label input[type="email"] 
+.label input[type="tel"]
+{
+    width: 100%;
+    padding: 10px;
+    border:3px solid;
+    border-radius: 6px;
+    text-align: center;
+}
+.label button input [type="reset"]
+.label button input [type="submit"]
+
+{
+    background-color: #10e85c;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: medium;
+}
